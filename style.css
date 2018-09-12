@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    width: 100%
+}
+
+header {
+    width: 100%;
+}
+
+#mainContent {
+    display: flex;
+    width: 100%;
+}
+
+.MenuAndNavbar {
+    width: 100%;
+    background-color: rgb(1, 70, 1);
+    display: flex;
+    justify-content: space-between;
+    color: #fff
+}
+
+i {
+    align-self: center;
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-right: 3%;
+}
+
+ul li {
+    margin-right: 5%;
+
+}
+
+#sideMenu {
+    display: none;
+    width: 0;
+}
